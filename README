@@ -1,0 +1,31 @@
+< Copyright : Alexandru Olteanu 322CA, alexandruolteanu2001@gmail.com >
+
+    In rezolvarea acestei teme am urmarit intreg scheletul prupus pentru
+rezolvarea task-urilor si de asemenea m-am axat pe construirea unor 
+functii ajutatoare pentru a face codul mai lizibil si mai scurt. Exemple
+de astfel de functii sunt createString(), createDir(), createFIle(), etc.
+   Explicatiile sunt deja bine structurate in cod in dreptul fiecarui pas
+al rezolvarii asa ca evit sa intru in detalii tehnice. Ceea ce vreau sa 
+mentionez este ideea centrala pe care am urmarit-o in aceasta tema. M-am
+folosit de recursivitate de cate ori a fost necesar, astfel usurand task-uri
+precum eliberarea memoriei Directoarelor, afisarea path-ului curent, etc.
+De asemnea, desi nu ne putem folosi de liste dublu inlantuite (optiune care 
+ar fi usurat semnificativ unele task-uri) am facut totusi in asa fel sa
+fiu la nodul anterior celui pe care vreau sa il modific cand il gasesc. 
+Astfel am evitat alte parcurgeri inutile ale listei, etc. In rest m-am 
+folosit de operatii deja cunoscute precum parcurgerea unei liste, scoaterea
+unui element din lista, adaugarea sa, folosirea de pointer dublu pentru a
+modifica adresa unui pointer din programul initial, etc.
+    Din pacate nu am putut sa imbin functiile de baza datorita naturii pe 
+care o are tema, totusi, m-am folosit de functiile de eliberare si alocare
+memorie de cate ori am intampinat o situatie corespunzatoare. Toate acestea
+au dus totusi la o rezolvare corecta si nu foarte dificil de implementat a 
+problemei propuse in complexitate liniara pentru fiecare operatie (Desi 
+puteam implementa un Hashmap pentru a imbunatatii anumite parti din cod, 
+mentinerea unor pointeri si la ultimul element din listele de fisiere si
+directoare).
+    Cu siguranta as fi putut face un Readme mult mai lung daca explicam aici 
+cum am gandit fiecare functie insa toate aceste detalii sunt prezente in cod
+asa cum am mentionat! :)
+    PS:  Poate ar fi fost interesant si un "move" in alt director decat simpla
+redenumire. Poate un extra bonus pana la 150 de puncte :))
